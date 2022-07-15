@@ -5,7 +5,7 @@ from prime_factors import PrimeFactors
 
 
 class TestPrimeFactors:
-    Case = namedtuple('TestCase', ('number', 'factors'))
+    Case = namedtuple('Case', ('number', 'factors'))
 
     CASES: Final[tuple[Case, ...]] = (
         Case(1, []),
